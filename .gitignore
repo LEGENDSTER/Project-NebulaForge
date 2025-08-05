@@ -137,3 +137,30 @@ dist
 # Vite logs files
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+
+
+# --- UNITY ---
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+.vs/
+*.unitypackage
+
+# --- PYTHON ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- FLUTTER/DART ---
+.dart_tool/
+.flutter-plugins
+.packages
+pubspec.lock
+ios/Pods/
+
+# --- TAURI ---
+src-tauri/target/
+src-tauri/icons/
+tauri.conf.json
